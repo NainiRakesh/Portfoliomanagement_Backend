@@ -33,7 +33,7 @@ public class DataEntryService {
         acBudgets.setQuarter(dataEntry.getQuarter());
         // Set other properties similarly
         
-        // Save the new AcBudgets entity to the AcBudgets repository
+        
         acBudgetsRepository.save(acBudgets);
     }
 }
